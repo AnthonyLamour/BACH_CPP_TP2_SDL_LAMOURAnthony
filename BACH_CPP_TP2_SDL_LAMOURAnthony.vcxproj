@@ -76,11 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\SDL\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\SDL\SDL2\SDL2_image\include;E:\SDL\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\SDL\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\SDL\SDL2\SDL2_image\lib\x86;E:\SDL\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -121,7 +121,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CPoint2D.cpp" />
+    <ClCompile Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CVect2D.cpp" />
+    <ClCompile Include="CGameObject.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CPoint2D.h" />
+    <ClInclude Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CVect2D.h" />
+    <ClInclude Include="CGameObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
