@@ -123,12 +123,14 @@
   <ItemGroup>
     <ClCompile Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CPoint2D.cpp" />
     <ClCompile Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CVect2D.cpp" />
+    <ClCompile Include="CGame.cpp" />
     <ClCompile Include="CGameObject.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CPoint2D.h" />
     <ClInclude Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CVect2D.h" />
+    <ClInclude Include="CGame.h" />
     <ClInclude Include="CGameObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

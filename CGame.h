@@ -1,26 +1,25 @@
 //********************************************************************************************************************************************************************************
 //
-// fichier : main.cpp
+// fichier : CGame.h
 //
-// class : main
+// description : Gestion d'un game
+//
+// attributs : 
+//
+// class : CGame
 //
 //********************************************************************************************************************************************************************************
-//12-11-2018 LAMOUR Anthony
+//15-11-2018 LAMOUR Anthony
 //15-11-2018 LAMOUR Anthony
 //********************************************************************************************************************************************************************************
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <iostream>
-#include "CGame.h"
+#pragma once
+#include "CGameObject.h"
 
-int main(int argc, char ** argv)
+class CGame {
 
-{
-	CGame CGameMonJeu;
+	//focntion membre
+public:
 
-	CGameMonJeu.jouer();
-
-	return 0;
-
-}
+	void jouer();
+};

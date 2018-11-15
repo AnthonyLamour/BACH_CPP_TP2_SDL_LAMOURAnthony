@@ -27,6 +27,9 @@
     <ClCompile Include="CGameObject.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Ludus-Academie\C++\CourCPP\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\BACH_CPP_TP1_CVect2D_LAMOURAnthony\CPoint2D.h">
@@ -36,6 +39,9 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="CGameObject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
